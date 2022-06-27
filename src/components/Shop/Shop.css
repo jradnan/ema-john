@@ -1,0 +1,30 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-container{
+  padding: 104px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+}
+.cart-container{
+  background-color: rgba(255, 153, 0, 0.3);
+}
+.selected-items{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+}
+/* @media only screen and (max-width: 600px) {
+ .shop-container {
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+} */
